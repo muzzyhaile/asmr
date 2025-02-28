@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Search, Music } from 'lucide-react';
+import { Search, Music, PlusCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { channels, categories } from '../data/channels';
 import { ChannelCard } from '../components/ChannelCard';
 
@@ -37,9 +38,16 @@ export function HomePage() {
             <Music className="w-8 h-8 text-purple-600" />
             <h1 className="text-4xl font-bold text-gray-800">ASMR Channel Directory</h1>
           </div>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl mx-auto mb-6">
             Discover your perfect ASMR experience from our curated collection of top creators
           </p>
+          <Link 
+            to="/submit" 
+            className="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition-colors"
+          >
+            <PlusCircle size={20} />
+            Submit Your Channel
+          </Link>
         </header>
 
         <div className="mb-8">
