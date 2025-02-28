@@ -14,6 +14,7 @@ export interface ASMRChannel {
     twitch?: string;
     discord?: string;
     spotify?: string;
+    tiktok?: string;
   };
   popularVideos?: {
     title: string;

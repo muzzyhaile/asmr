@@ -386,9 +386,11 @@ export const channels: ASMRChannel[] = [
     subscribers: "250K+",
     category: "Roleplay",
     description: "Top ASMR streamer in 2025 with high viewership",
-    thumbnail: "https://images.unsplash.com/photo-1576503918360-4f1a19f334c6?w=800&auto=format&fit=crop",
+    thumbnail: "https://images.unsplash.com/photo-1519638399535-1b036603ac77?w=800&auto=format&fit=crop",
     socialLinks: {
-        twitch: "https://www.twitch.tv/bellaramatv"
+        twitch: "https://www.twitch.tv/bellaramatv",
+        instagram: "https://www.instagram.com/bellaramatv",
+        twitter: "https://twitter.com/bellaramatv"
     },
     about: "Known for immersive roleplay ASMR streams with high production value.",
     languages: ["English"],
@@ -405,9 +407,11 @@ export const channels: ASMRChannel[] = [
     subscribers: "180K+",
     category: "Triggers",
     description: "Second most-watched ASMR streamer in 2025",
-    thumbnail: "https://images.unsplash.com/photo-1590474536718-611f4466a5e2?w=800&auto=format&fit=crop",
+    thumbnail: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop",
     socialLinks: {
-        twitch: "https://www.twitch.tv/asmrbae69"
+        twitch: "https://www.twitch.tv/asmrbae69",
+        instagram: "https://www.instagram.com/asmrbae69",
+        tiktok: "https://www.tiktok.com/@asmrbae69"
     },
     about: "Specializing in traditional ASMR triggers and relaxation techniques.",
     languages: ["English", "Spanish"],
@@ -426,7 +430,9 @@ export const channels: ASMRChannel[] = [
     description: "Third most-watched ASMR streamer in 2025",
     thumbnail: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800&auto=format&fit=crop",
     socialLinks: {
-        twitch: "https://www.twitch.tv/dooriru"
+        twitch: "https://www.twitch.tv/dooriru",
+        instagram: "https://www.instagram.com/dooriru",
+        youtube: "https://www.youtube.com/@dooriru"
     },
     about: "Creating unique and innovative ASMR content with artistic elements.",
     languages: ["English", "Japanese"],
@@ -445,7 +451,9 @@ export const channels: ASMRChannel[] = [
     description: "Fourth most-watched ASMR streamer in 2025",
     thumbnail: "https://images.unsplash.com/photo-1560253023-3ec5d502959f?w=800&auto=format&fit=crop",
     socialLinks: {
-        twitch: "https://www.twitch.tv/thenicolet"
+        twitch: "https://www.twitch.tv/thenicolet",
+        youtube: "https://www.youtube.com/@thenicolet",
+        twitter: "https://twitter.com/thenicolet"
     },
     about: "Combining gaming content with ASMR elements for a unique relaxation experience.",
     languages: ["English"],
@@ -464,7 +472,9 @@ export const channels: ASMRChannel[] = [
     description: "Fifth most-watched ASMR streamer in 2025",
     thumbnail: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&auto=format&fit=crop",
     socialLinks: {
-        twitch: "https://www.twitch.tv/kazeura"
+        twitch: "https://www.twitch.tv/kazeura",
+        instagram: "https://www.instagram.com/kazeura",
+        spotify: "https://open.spotify.com/artist/kazeura"
     },
     about: "Specializing in nature-focused ASMR content and outdoor recordings.",
     languages: ["English"],
@@ -483,7 +493,9 @@ export const channels: ASMRChannel[] = [
     description: "Highly consistent streamer known for quality content and friendliness",
     thumbnail: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=800&auto=format&fit=crop",
     socialLinks: {
-        twitch: "https://www.twitch.tv/Asmr_Divinity"
+        twitch: "https://www.twitch.tv/Asmr_Divinity",
+        youtube: "https://www.youtube.com/@Asmr_Divinity",
+        patreon: "https://www.patreon.com/Asmr_Divinity"
     },
     about: "Exploring experimental ASMR techniques and innovative content formats.",
     languages: ["English"],
@@ -502,7 +514,9 @@ export const channels: ASMRChannel[] = [
     description: "General ASMR server for recommending ASMRtists, cross-promoting, and chatting",
     thumbnail: "https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?w=800&auto=format&fit=crop",
     socialLinks: {
-        discord: "https://discord.com/invite/EDm8B8Fwcj"
+        discord: "https://discord.com/invite/EDm8B8Fwcj",
+        website: "https://asmrcommunity.com",
+        twitter: "https://twitter.com/asmrcommunity"
     },
     about: "A vibrant community of ASMR creators and enthusiasts sharing recommendations and discussing the latest trends.",
     languages: ["English", "Multiple"],
@@ -520,7 +534,9 @@ export const channels: ASMRChannel[] = [
     description: "Official Discord server for the r/asmr subreddit",
     thumbnail: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&auto=format&fit=crop",
     socialLinks: {
-        discord: "https://discord.gg/asmr"
+        discord: "https://discord.gg/asmr",
+        website: "https://www.reddit.com/r/asmr/",
+        twitter: "https://twitter.com/reddit_asmr"
     },
     about: "The official Discord server for the r/asmr subreddit, featuring discussions, creator spotlights, and community events.",
     languages: ["English", "Multiple"],
