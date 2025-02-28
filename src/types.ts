@@ -11,6 +11,9 @@ export interface ASMRChannel {
     twitter?: string;
     patreon?: string;
     website?: string;
+    twitch?: string;
+    discord?: string;
+    spotify?: string;
   };
   popularVideos?: {
     title: string;

@@ -14,6 +14,21 @@ export function HomePage() {
     return matchesSearch && matchesCategory;
   });
 
+  const groupChannelsByPlatform = (channels: typeof filteredChannels) => {
+    const grouped: { [key: string]: typeof filteredChannels } = {};
+    channels.forEach(channel => {
+      for (const platform in channel.socialLinks) {
+        if (!grouped[platform]) {
+          grouped[platform] = [];
+        }
+        grouped[platform].push(channel);
+      }
+    });
+    return grouped;
+  };
+
+  const groupedChannels = groupChannelsByPlatform(filteredChannels);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
       <div className="container mx-auto px-4 py-8">
@@ -56,11 +71,32 @@ export function HomePage() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredChannels.map(channel => (
-            <ChannelCard key={channel.name} channel={channel} />
-          ))}
+        {/* Platform Navigation Links */}
+        <div className="flex flex-wrap gap-4 justify-center mb-8 bg-white p-4 rounded-lg shadow-sm">
+          <h3 className="w-full text-center text-lg font-semibold mb-2">Jump to Platform:</h3>
+          <div className="flex flex-wrap gap-4 justify-center">
+            {Object.keys(groupedChannels).map(platform => (
+              <a
+                key={platform}
+                href={`#${platform}`}
+                className="px-6 py-2 rounded-full bg-purple-100 text-purple-700 hover:bg-purple-200 transition-all font-medium flex items-center gap-2"
+              >
+                {platform.charAt(0).toUpperCase() + platform.slice(1)}
+              </a>
+            ))}
+          </div>
         </div>
+
+        {Object.entries(groupedChannels).map(([platform, channels]) => (
+          <div id={platform} key={platform} className="border-2 border-gray-300 p-4 rounded-lg mb-8 scroll-mt-24">
+            <h2 className="text-2xl font-bold text-gray-800 mt-4 mb-4 capitalize">{platform}</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {channels.map(channel => (
+                <ChannelCard key={channel.name} channel={channel} />
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

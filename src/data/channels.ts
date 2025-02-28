@@ -379,6 +379,156 @@ export const channels: ASMRChannel[] = [
       "Studio Microphones"
     ],
     uploadSchedule: "Regular uploads"
+  },
+  {
+    name: "bellaramatv",
+    url: "https://www.twitch.tv/bellaramatv",
+    subscribers: "250K+",
+    category: "Roleplay",
+    description: "Top ASMR streamer in 2025 with high viewership",
+    thumbnail: "https://images.unsplash.com/photo-1576503918360-4f1a19f334c6?w=800&auto=format&fit=crop",
+    socialLinks: {
+        twitch: "https://www.twitch.tv/bellaramatv"
+    },
+    about: "Known for immersive roleplay ASMR streams with high production value.",
+    languages: ["English"],
+    equipment: [
+      "3Dio Free Space Pro II",
+      "Professional Studio Setup",
+      "High-End Streaming Equipment"
+    ],
+    uploadSchedule: "Daily streams"
+  },
+  {
+    name: "asmrbae69",
+    url: "https://www.twitch.tv/asmrbae69",
+    subscribers: "180K+",
+    category: "Triggers",
+    description: "Second most-watched ASMR streamer in 2025",
+    thumbnail: "https://images.unsplash.com/photo-1590474536718-611f4466a5e2?w=800&auto=format&fit=crop",
+    socialLinks: {
+        twitch: "https://www.twitch.tv/asmrbae69"
+    },
+    about: "Specializing in traditional ASMR triggers and relaxation techniques.",
+    languages: ["English", "Spanish"],
+    equipment: [
+      "Professional Microphones",
+      "Custom Trigger Collection",
+      "Studio Lighting"
+    ],
+    uploadSchedule: "Streams 5 days a week"
+  },
+  {
+    name: "dooriru",
+    url: "https://www.twitch.tv/dooriru",
+    subscribers: "145K+",
+    category: "Creative",
+    description: "Third most-watched ASMR streamer in 2025",
+    thumbnail: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800&auto=format&fit=crop",
+    socialLinks: {
+        twitch: "https://www.twitch.tv/dooriru"
+    },
+    about: "Creating unique and innovative ASMR content with artistic elements.",
+    languages: ["English", "Japanese"],
+    equipment: [
+      "Custom Microphone Setup",
+      "Art Supplies",
+      "Professional Studio"
+    ],
+    uploadSchedule: "Weekly streams"
+  },
+  {
+    name: "thenicolet",
+    url: "https://www.twitch.tv/thenicolet",
+    subscribers: "120K+",
+    category: "Gaming",
+    description: "Fourth most-watched ASMR streamer in 2025",
+    thumbnail: "https://images.unsplash.com/photo-1560253023-3ec5d502959f?w=800&auto=format&fit=crop",
+    socialLinks: {
+        twitch: "https://www.twitch.tv/thenicolet"
+    },
+    about: "Combining gaming content with ASMR elements for a unique relaxation experience.",
+    languages: ["English"],
+    equipment: [
+      "Gaming PC Setup",
+      "Professional Microphones",
+      "Streaming Equipment"
+    ],
+    uploadSchedule: "Streams 4 days a week"
+  },
+  {
+    name: "kazeura",
+    url: "https://www.twitch.tv/kazeura",
+    subscribers: "110K+",
+    category: "Nature",
+    description: "Fifth most-watched ASMR streamer in 2025",
+    thumbnail: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&auto=format&fit=crop",
+    socialLinks: {
+        twitch: "https://www.twitch.tv/kazeura"
+    },
+    about: "Specializing in nature-focused ASMR content and outdoor recordings.",
+    languages: ["English"],
+    equipment: [
+      "Field Recording Equipment",
+      "Binaural Microphones",
+      "Portable Studio Setup"
+    ],
+    uploadSchedule: "Bi-weekly streams"
+  },
+  {
+    name: "Asmr_Divinity",
+    url: "https://www.twitch.tv/Asmr_Divinity",
+    subscribers: "95K+",
+    category: "Experimental",
+    description: "Highly consistent streamer known for quality content and friendliness",
+    thumbnail: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=800&auto=format&fit=crop",
+    socialLinks: {
+        twitch: "https://www.twitch.tv/Asmr_Divinity"
+    },
+    about: "Exploring experimental ASMR techniques and innovative content formats.",
+    languages: ["English"],
+    equipment: [
+      "Custom Sound Design Setup",
+      "Experimental Triggers",
+      "Professional Studio"
+    ],
+    uploadSchedule: "Weekly streams"
+  },
+  {
+    name: "ASMR Community",
+    url: "https://discord.com/invite/EDm8B8Fwcj",
+    subscribers: "50K+",
+    category: "Community",
+    description: "General ASMR server for recommending ASMRtists, cross-promoting, and chatting",
+    thumbnail: "https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?w=800&auto=format&fit=crop",
+    socialLinks: {
+        discord: "https://discord.com/invite/EDm8B8Fwcj"
+    },
+    about: "A vibrant community of ASMR creators and enthusiasts sharing recommendations and discussing the latest trends.",
+    languages: ["English", "Multiple"],
+    equipment: [
+      "Community-run Server",
+      "Multiple Channels",
+      "Regular Events"
+    ]
+  },
+  {
+    name: "r/asmr Official",
+    url: "https://discord.gg/asmr",
+    subscribers: "75K+",
+    category: "Community",
+    description: "Official Discord server for the r/asmr subreddit",
+    thumbnail: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&auto=format&fit=crop",
+    socialLinks: {
+        discord: "https://discord.gg/asmr"
+    },
+    about: "The official Discord server for the r/asmr subreddit, featuring discussions, creator spotlights, and community events.",
+    languages: ["English", "Multiple"],
+    equipment: [
+      "Moderated Server",
+      "Dedicated Channels",
+      "Weekly Events"
+    ]
   }
 ];
 
@@ -396,5 +546,6 @@ export const categories = [
   "Beauty",
   "Culinary",
   "Ambient",
-  "Cultural"
+  "Cultural",
+  "Community"
 ];
