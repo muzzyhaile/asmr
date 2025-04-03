@@ -30,17 +30,31 @@ export const audioPosts: AudioPost[] = [
   },
   {
     id: "meditation-story",
-    title: "Meditation Story ASMR",
-    description: "A calming meditation story with gentle whispers to guide you into a state of deep relaxation and mindfulness.",
+    title: "Morning Meditation Story ASMR",
+    description: "A calming morning meditation story with gentle whispers to start your day with relaxation and mindfulness.",
     audioUrl: "/src/audiofiles/story-2025-04-03 (1).mp3",
-    imageUrl: "https://placehold.co/600x400/e9d5ff/6b21a8?text=Meditation+Story+ASMR",
+    imageUrl: "https://placehold.co/600x400/e9d5ff/6b21a8?text=Morning+Meditation+Story",
     duration: "5:00",
-    category: "Ambient",
-    tags: ["meditation", "story", "whisper", "relaxation", "mindfulness"],
+    category: "Meditation",
+    tags: ["morning", "meditation", "story", "whisper", "relaxation", "mindfulness"],
     creator: "ASMR Studio",
     creatorUrl: "/channels/asmr-studio",
     publishDate: "2025-04-03",
-    metaDescription: "Immerse yourself in a soothing meditation story by ASMR Studio. Perfect for relaxation and mindfulness practice."
+    metaDescription: "Start your day with a soothing morning meditation story by ASMR Studio. Perfect for morning relaxation and mindfulness practice."
+  },
+  {
+    id: "meditation-story-2",
+    title: "Morning Energy Meditation",
+    description: "An energizing morning meditation to awaken your senses and prepare your mind for a productive and mindful day ahead.",
+    audioUrl: "/src/audiofiles/story-2025-04-03 (2).mp3",
+    imageUrl: "https://placehold.co/600x400/e9d5ff/6b21a8?text=Morning+Energy+Meditation",
+    duration: "6:00",
+    category: "Meditation",
+    tags: ["morning", "meditation", "energy", "guided", "relaxation", "mindfulness"],
+    creator: "ASMR Studio",
+    creatorUrl: "/channels/asmr-studio",
+    publishDate: "2025-04-03",
+    metaDescription: "Energize your morning with this guided meditation by ASMR Studio. Perfect for starting your day with clarity and focus."
   }
 ];
 
