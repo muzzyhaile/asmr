@@ -34,13 +34,14 @@ export function HomePage() {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <Music className="w-8 h-8 text-purple-600" />
-            <h1 className="text-4xl font-bold text-gray-800">ASMR Channel Directory</h1>
-          </div>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-6">
-            Discover your perfect ASMR experience from our curated collection of top creators
-          </p>
+        <div className="flex items-center justify-center gap-2 mb-4">
+          <Music className="w-8 h-8 text-purple-600" />
+          <h1 className="text-4xl font-bold text-gray-800">ASMR Channel Directory</h1>
+        </div>
+        <p className="text-gray-600 max-w-2xl mx-auto mb-6">
+          Discover your perfect ASMR experience from our curated collection of top creators
+        </p>
+        <div className="flex items-center justify-center gap-4">
           <Link 
             to="/submit" 
             className="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition-colors"
@@ -48,6 +49,14 @@ export function HomePage() {
             <PlusCircle size={20} />
             Submit Your Channel
           </Link>
+          <Link 
+            to="/audio" 
+            className="inline-flex items-center gap-2 px-6 py-3 bg-purple-500 text-white rounded-full hover:bg-purple-600 transition-colors"
+          >
+            <Music size={20} />
+            Browse ASMR Audio
+          </Link>
+        </div>
         </header>
 
         <div className="mb-8">
