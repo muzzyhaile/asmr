@@ -19,7 +19,7 @@ export const audioPosts: AudioPost[] = [
     title: "Whispering ASMR",
     description: "A soothing whisper session that creates a calming and relaxing atmosphere, perfect for meditation or sleep.",
     audioUrl: "/audiofiles/ElevenLabs_2025-03-18T23_36_26_Whispering Girl_pvc_s50_sb62_se0_b_m2.mp3",
-    imageUrl: "https://placehold.co/600x400/e9d5ff/6b21a8?text=Whispering+Girl+ASMR",
+    imageUrl: "https://placehold.co/600x400/e9d5ff/6b21a8?text=Whispering+ASMR",
     duration: "3:00",
     category: "Whispers",
     tags: ["whisper", "female voice", "soft speaking", "relaxation", "sleep aid"],
