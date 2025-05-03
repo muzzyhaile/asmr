@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Music, PlusCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import { channels, categories } from '../data/channels';
 import { ChannelCard } from '../components/ChannelCard';
 
@@ -32,6 +33,12 @@ export function HomePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
+      <Helmet>
+        <title>ASMR Channel Directory | Find Top ASMR Creators & Channels</title>
+        <meta name="description" content="Discover your perfect ASMR experience. Browse our curated directory of top ASMR channels across YouTube, Twitch, and more. Filter by category and platform." />
+        <meta name="keywords" content="ASMR, channel directory, ASMRtist, creators, YouTube ASMR, Twitch ASMR, relaxation, tingles, sleep sounds" />
+      </Helmet>
+
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
         <div className="flex items-center justify-center gap-2 mb-4">
