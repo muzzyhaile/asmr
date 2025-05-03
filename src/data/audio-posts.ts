@@ -58,4 +58,4 @@ export const audioPosts: AudioPost[] = [
   }
 ];
 
-export const audioCategories = ["All", "Whispers", "Nature", "Triggers", "Roleplay", "Ambient", "Sleep", "Meditation"];
+export const audioCategories = ["All", "Whispers", "Nature", "Triggers", "Ambient", "Sleep", "Meditation"];

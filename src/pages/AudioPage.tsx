@@ -22,8 +22,8 @@ export function AudioPage() {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
       <Helmet>
         <title>ASMR Audio Collection | Relaxing Sounds for Sleep and Relaxation</title>
-        <meta name="description" content="Discover our curated collection of high-quality ASMR audio experiences. From nature sounds to triggers, find your perfect relaxation soundtrack." />
-        <meta name="keywords" content="ASMR, audio, relaxation, sleep, sounds, triggers, nature sounds, ambient" />
+        <meta name="description" content="Discover high-quality ASMR audio: Whispers, Nature sounds, Triggers, Ambient tracks, Sleep aids, and Meditation. Find your perfect relaxation soundtrack." />
+        <meta name="keywords" content="ASMR, audio, relaxation, sleep, sounds, triggers, nature sounds, ambient, meditation, whispers" />
       </Helmet>
 
       <div className="container mx-auto px-4 py-8">
@@ -34,6 +34,9 @@ export function AudioPage() {
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Immerse yourself in our curated collection of high-quality ASMR audio experiences
+          </p>
+          <p className="text-gray-600 max-w-3xl mx-auto mt-4 text-sm">
+            Explore our diverse library featuring soothing <strong>Whispers</strong>, calming <strong>Nature</strong> sounds, satisfying <strong>Triggers</strong>, relaxing <strong>Ambient</strong> tracks, and guided <strong>Meditation</strong> sessions perfect for <strong>Sleep</strong> and deep relaxation.
           </p>
         </header>
 
@@ -50,7 +53,8 @@ export function AudioPage() {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-4 justify-center mb-8">
+        <h2 className="text-2xl font-semibold text-gray-700 text-center mb-6">Browse by Category</h2>
+        <div className="flex flex-wrap gap-4 justify-center mb-10">
           {audioCategories.map(category => (
             <button
               key={category}
